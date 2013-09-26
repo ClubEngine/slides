@@ -206,7 +206,7 @@ a:focus {
 
     They cover everything what you see on first three steps of the demo.
 */
-.slide {
+.slide, .game {
     display: block;
 
     width: 900px;
@@ -703,4 +703,39 @@ a:focus {
 */
 
 .centered-img { width: 700px; margin-left: 50px; }
-#gj-limits { width: 500px; }
+#gj-limits { width: 700px; }
+ul { list-style-type: circle; padding-left: 50px; }
+#intro {
+  text-align: center;
+  line-height: 2em;
+}
+#intro h3 {
+  font-size: 1.4em;
+}
+#brace-yourselves .centered-img {
+  margin-top: 40px;
+}
+#catch {
+  font-size: 3em;
+  line-height: 2em;
+}
+.game img {
+  margin-top: 40px;
+}
+#why,
+#social {
+  width: 640px;
+}
+#why p,
+#social p {
+  font-size: 0.8em;
+}
+#social p {
+  text-align: right;
+}
+#gj-others {
+  
+}
+dd {
+  padding: 20px 0px 50px 50px;
+}
